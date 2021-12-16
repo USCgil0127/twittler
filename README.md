@@ -1,6 +1,6 @@
 # Sprint - Twittler 
 
-더 자세한 내용은 ![트위틀러 설명 in Velog](https://velog.io/@gil0127/Sprint-Twittler-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1)
+더 자세한 설명은 [Sprint - Twittler 함수 작성](https://velog.io/@gil0127/Sprint-Twittler-%ED%95%A8%EC%88%98-%EC%9E%91%EC%84%B1) 
 
 이제 JavaScript를 이용해서 Twitter가 실제로 작동되도록 만들어봅니다. Interactive web application을 만들면서 Front-end 개발의 전반적인 과정을 연습할 수 있는 좋은 기회입니다.
 
