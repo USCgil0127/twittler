@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+
+   <!-- 이거를 추가해주고  -->
+   <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+   <script src="https://unpkg.com/dayjs@1.8.21/plugin/relativeTime.js"></script>
+   <script>dayjs.extend(window.dayjs_plugin_relativeTime)</script>
+   <!-- utn 부분을 우리가 쓸 함수인 relativeTime으로 바꿔 줘야 제대로 import가 된다. CDN으로-->
+   <script>dayjs().format()</script>
+
+
+</head>
+<body>
+
+  <main>
+  
+  <div id="greeting">twittler</div>
+  <!-- <div id="test"></div> -->
+
+  <form>
+    <div>아이디</div>
+    <input type="text" placeholder="아이디를 입력해주세요" class="userid">
+
+    <div>댓글</div>
+    <input type="text" placeholder="댓글을 입력해주세요" class="text">
+    <button class="formbtn"> 등록 </button>
+  </form>
+
+  <ul id="mainUL">
+    <!-- <li>
+      <div class="flex-container">
+      <div class="name">gil0127</div>
+      <span class="date"> 2021-11-09 10:20:22 </span>
+      </div> 
+      <div class="content"> 너무 잘 생긴 분을 만나서 반갑습니다. </div>
+     
+    </li> -->
+  </ul>
+
+  
+</main>
+
+</body>
+
+<script src="script.js"></script>
+</html>
